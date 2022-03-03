@@ -1,0 +1,80 @@
+2022-03-01 21:37:05,230 | DEBUG: Here you have some information for debugging.
+2022-03-01 21:37:05,330 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 21:37:05,618 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/weather?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-01 21:37:16,706 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 21:37:16,931 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/weather?q=edina%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-01 21:40:36,656 | DEBUG: Here you have some information for debugging.
+2022-03-01 21:40:36,755 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 21:40:36,987 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/weather?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-01 21:40:49,013 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 21:40:49,248 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/weather?q=oslo%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-01 21:41:05,888 | DEBUG: Here you have some information for debugging.
+2022-03-01 21:41:05,975 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 21:41:06,248 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-01 21:41:12,406 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 21:41:12,643 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=edina%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-01 21:42:17,387 | DEBUG: Here you have some information for debugging.
+2022-03-01 21:42:17,481 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 21:42:17,716 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-01 21:42:22,586 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 21:42:22,812 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=hopkins%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-01 22:17:58,339 | DEBUG: Here you have some information for debugging.
+2022-03-01 22:17:58,459 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 22:17:58,696 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-01 22:18:07,138 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-01 22:18:07,385 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=baston%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:12:27,154 | DEBUG: Here you have some information for debugging.
+2022-03-02 07:12:27,579 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:12:27,828 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:12:34,688 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:12:34,909 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=rogers%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:12:42,583 | DEBUG: Here you have some information for debugging.
+2022-03-02 07:12:42,642 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:12:42,856 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:12:46,004 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:12:46,222 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=edina%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:15:24,447 | DEBUG: Here you have some information for debugging.
+2022-03-02 07:15:24,539 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:15:24,752 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:15:37,146 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:15:37,379 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=rogers%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:18:14,680 | DEBUG: Here you have some information for debugging.
+2022-03-02 07:18:14,772 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:18:14,992 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:18:20,000 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:18:20,225 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=roger%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:18:42,958 | DEBUG: Here you have some information for debugging.
+2022-03-02 07:18:43,049 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:18:43,257 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:18:47,045 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:18:47,265 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=edina%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:21:07,960 | DEBUG: Here you have some information for debugging.
+2022-03-02 07:21:08,060 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:21:08,301 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:21:11,714 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:21:11,987 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=edina%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:27:45,530 | DEBUG: Here you have some information for debugging.
+2022-03-02 07:27:45,627 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:27:45,857 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-02 07:27:51,126 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-02 07:27:51,365 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=eagen%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-03 01:50:26,953 | DEBUG: Here you have some information for debugging.
+2022-03-03 01:50:27,065 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-03 01:50:27,361 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-03 01:50:32,517 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-03 01:50:32,809 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=hala%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-03 01:51:18,782 | DEBUG: Here you have some information for debugging.
+2022-03-03 01:51:18,876 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-03 01:51:19,157 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-03 01:51:23,511 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-03 01:51:23,796 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=edina%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-03 01:53:20,124 | DEBUG: Here you have some information for debugging.
+2022-03-03 01:53:20,223 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-03 01:53:20,488 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-03 01:53:29,437 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-03 01:53:29,951 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=delt%2C+us&units=imperial HTTP/1.1" 401 107
+2022-03-03 01:53:40,545 | DEBUG: Here you have some information for debugging.
+2022-03-03 01:53:40,633 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-03 01:53:40,912 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial HTTP/1.1" 401 107
+2022-03-03 01:53:48,311 | DEBUG: Starting new HTTPS connection (1): api.openweathermap.org:443
+2022-03-03 01:53:48,585 | DEBUG: https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis%2C+us&units=imperial HTTP/1.1" 401 107

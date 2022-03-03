@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 
-import OS
+import os
 
 from datetime import datetime
 
@@ -13,6 +13,7 @@ def main():
     query = {'q': 'minneapolis,us', 'units': 'imperial', 'appid': key}
     url = 'http://api.openweathermap.org/data/2.5/weather'
         
+        
     data = requests.get(url, params=query).json()
 
     weather_description = data['weather'] [0]['description']
@@ -20,11 +21,6 @@ def main():
     temperature_f = data['main']['temp']
 
     pprint(f'The weather is {weather_description}, the temperature is {temperature_f:.2f}F.')
-
-    #    for forecast in forecast_item:
-    #    Timestamp = forecast['dt']
-    #    date = datetime.fromtimestamp(Timestamp)
-    #    temp = forecast['main']['temp']
 
 
 

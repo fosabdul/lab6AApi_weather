@@ -9,12 +9,11 @@ import os
 
 key = os.environ.get('weather_key')
 
-url = 'http://api.openweathermap.org/data/2.5/forecast?q=minneapolis,mn,us&unit=imperail&appid=6cf37af777f011473a5a8a47cb157798'
+query = {'q': 'minneapolis,us', 'units': 'imperial', 'appid': key}
 
-# url = 'http://api.openweathermap.org/data/2.5/weather'
+url = 'http://api.openweathermap.org/data/2.5/weather'
 
-
-
+data = requests.get(url, params=query).json()
 
 def main():
 
@@ -26,7 +25,7 @@ def main():
 
     else:
         current_temp = get_temp(weather_data)
-        print(f'The current temperature is {current_temp}')
+        print(f'The current temperature is {current_temp}F')
 
 
 
@@ -34,28 +33,26 @@ def get_location():
     city, country = '', ''
 
     while len(city) == 0:
-        city = input('Enter the name of the city:').strip()
+        city = input('Enter the name of the city: ').strip()
 
     while len(country) != 2 or not country.isalpha():
         country = input('Enter the 2-letter country code: ').strip()
 
-
     location = f'{city}, {country}'
-
     return location
 
 def get_current_weather(location, key):
     try:
-        query = {'q': location, 'units': 'metric', 'appid': key}
+        query = {'q': location, 'units': 'imperial', 'appid': key}
         response = requests.get(url, params=query)
         response.raise_for_status()
 
         data = response.json()
-        return data , None
+        return data
 
     except Exception as ex:
         print(ex)
-        print(response.text) # where is this file
+        print(response.text) 
 
         return None, ex
 
@@ -65,11 +62,12 @@ def get_current_weather(location, key):
 def get_temp(weather_data):
 
     try:
+
         temp = weather_data['main'] ['temp']
         return temp
 
     except KeyError:
-        print('This data is not in the fromate expected')
+        print('This data is not in the formate expected')
 
         return 'Unknown'
 

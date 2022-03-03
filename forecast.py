@@ -6,14 +6,11 @@ from pprint import pprint
 import os
 
 
-
 from datetime import datetime
 
 key = os.environ.get('weather_key')
 
 query = {'q': 'minneapolis,us', 'units': 'imperial', 'appid': key}
-
-# url = 'http://api.openweathermap.org/data/2.5/forecast?q=minneapolis,mn,us&unit=imperail&appid=6cf37af777f011473a5a8a47cb157798'
 
 url = 'http://api.openweathermap.org/data/2.5/forecast'
 
